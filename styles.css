@@ -11,7 +11,7 @@ html {
 body {
   font-family: sans-serif;
   color: #333;
-  background-color: #d8d9da;
+  background-color: #d5d6d7;
 }
 
 .header {
@@ -121,4 +121,43 @@ body {
 span {
   font-size: 2rem;
   margin-top: 20px;
+}
+
+/**********************SECTION ABOUT********************************/
+.about-section {
+  padding: 4rem 9.6rem;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  gap: 12rem;
+  align-items: center;
+}
+
+.headding-secondary {
+  font-size: 4rem;
+}
+
+.headding-secondary::after {
+  content: " Me";
+  color: #0983ee;
+}
+
+.profil {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.profil::before {
+  content: "|";
+  font-size: 3rem;
+  color: #0983ee;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+}
+
+.stape-2 {
+  margin-right: 12rem;
 }
