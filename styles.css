@@ -11,7 +11,7 @@ html {
 body {
   font-family: sans-serif;
   color: #333;
-  background-color: #f0f4f8;
+  background-color: #d8d9da;
 }
 
 .header {
@@ -19,7 +19,6 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  background-color: #ecedee;
 }
 
 .logo-type {
@@ -97,11 +96,29 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.ocials-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medias {
+  font-size: 2.8rem;
+  color: #0983ee;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+}
 .btn {
   text-decoration: none;
   font-size: 1.6rem;
   background-color: #0983ee;
+  align-items: center;
   color: #fff;
-  padding: 1.4rem;
+  padding: 1.2rem;
   border-radius: 5px;
+}
+
+span {
+  font-size: 2rem;
+  margin-top: 20px;
 }
