@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #f0f4f8;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecedee;
+}
+
+.logo-type {
+  font-size: 2.3rem;
+  font-weight: 900;
+  padding: 1.6rem 4.8rem;
+}
+
+.logo-type::before {
+  content: "IBRA";
+  color: #0983ee;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list-link a:link,
+.list-link a:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.list-link a:hover,
+.list-link a:active {
+  border-bottom: solid 3px #0983ee;
+}
+
+.btn-link a:link,
+.btn-link a:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #0983ee;
+  border-radius: 5px;
+  padding: 0.8rem 1.4rem;
+}
+/**************section hero*****************/
+.hero-section {
+  padding: 2rem 9.6rem;
+}
+
+.secton-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 18rem;
+  align-items: center;
+}
+
+.my-photo {
+  height: 48rem;
+}
+
+.my-introduce {
+  font-size: 3rem;
+}
+
+.headding-primary {
+  font-size: 5.4rem;
+  font-weight: 800;
+  color: #0983ee;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 1.8rem;
+  line-height: 1.4em;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.6rem;
+  background-color: #0983ee;
+  color: #fff;
+  padding: 1.4rem;
+  border-radius: 5px;
+}
