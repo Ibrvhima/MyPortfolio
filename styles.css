@@ -156,8 +156,56 @@ span {
 .description {
   font-size: 1.6rem;
   line-height: 1.5em;
+  word-spacing: 1.75px;
 }
 
 .stape-2 {
   margin-right: 12rem;
+}
+
+/***************section services***************************/
+.service-section{
+  padding: 4rem 9.6rem;
+}
+
+.service{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.service-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.boxe{
+  box-shadow: inset 1px 1px 1px 4px #d5d6d7;
+  width: 25rem;
+  background-color: #FFF;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 9px;
+  
+}
+
+.service-description{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+
+}
+.icones{
+  font-size: 5rem;
+  color: #0983ee;
+}
+
+.learn-more{
+  text-decoration: none;
+  font-weight: 800;
+  padding: 5px;
+  background-color: #0983ee;
+  border-radius: 5px;
+  color: #FFF;
 }
