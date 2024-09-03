@@ -11,7 +11,7 @@ html {
 body {
   font-family: sans-serif;
   color: #333;
-  background-color: #d5d6d7;
+  background-color: #c5c6c8;
 }
 
 .header {
@@ -19,6 +19,12 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #c5c6c8;
+  z-index: 1000;
 }
 
 .logo-type {
@@ -64,7 +70,8 @@ body {
 }
 /**************section hero*****************/
 .hero-section {
-  padding: 2rem 9.6rem;
+  padding: 4.8rem 9.6rem;
+  margin-top: 4rem;
 }
 
 .secton-hero {
@@ -76,7 +83,7 @@ body {
 }
 
 .my-photo {
-  width: 70%;
+  width: 75%;
 }
 .stape2{
   position: relative;
@@ -85,12 +92,12 @@ body {
   content: "";
   display: block;
   width: 90%;
-  background-color: #0983ee3c;
+  background-color: #0983ee6f;
   position: absolute;
   z-index: -1;
   margin-top: 8rem;
   padding-bottom: 80%;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  border-radius: 30% 70% 70% 30% / 30% 70% 70% 60% ;
 }
 
 .my-introduce {
