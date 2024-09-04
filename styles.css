@@ -230,3 +230,40 @@ span {
   border-radius: 5px;
   color: #FFF;
 }
+
+
+/***********************section projects****************/
+.project-section{
+  padding: 4.8rem 9.6rem;
+  background-color: #FFF;
+}
+
+.projects{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4.4rem;
+}
+.projects::after{
+  content: " Projects";
+  color: #0983ee;
+  font-size: 4rem;
+}
+.project-image{
+  width: 80%;
+  height: auto;
+  border-radius: 6px;
+  }
+
+  .last-projects{
+    background-color: #0983ee58;
+    padding: 2rem;
+  }
+
+  .project-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+  }
