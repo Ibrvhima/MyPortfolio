@@ -325,3 +325,14 @@ span {
     background-color: #0983ee;
 
   }
+/**********************Section footer****************/
+footer{
+  padding: 2rem 9.8rem;
+  background-color: #bdbcbc;
+  text-align: center;
+}
+
+
+.footer p{
+  font-size: 1.6rem;
+}
