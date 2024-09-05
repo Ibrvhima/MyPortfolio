@@ -319,6 +319,9 @@ button {
   color: #fff;
   background-color: #0983ee;
 }
+::placeholder{
+  color: rgb(181, 178, 178);
+}
 /**********************Section footer****************/
 footer {
   padding: 2rem 9.8rem;
