@@ -23,7 +23,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #c5c6c8;
+  background-color: #ecedee;
   z-index: 1000;
 }
 
@@ -156,7 +156,9 @@ span {
 }
 
 .headding-secondary {
-  font-size: 4rem;
+  font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
 
 .headding-secondary::after {
@@ -190,9 +192,10 @@ span {
 }
 
 .service{
-  font-size: 3rem;
   text-align: center;
-  margin-bottom: 2.4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .service-boxes{
@@ -202,7 +205,7 @@ span {
 }
 
 .boxe{
-  box-shadow: inset 1px 1px 1px 4px #d5d6d7;
+  box-shadow: inset 1px 1px 1px 1px #d5d6d7;
   width: 25rem;
   background-color: #FFF;
   text-align: center;
@@ -212,7 +215,7 @@ span {
 }
 
 .service-description{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   margin: 2rem 0;
 
@@ -235,18 +238,19 @@ span {
 /***********************section projects****************/
 .project-section{
   padding: 4.8rem 9.6rem;
-  background-color: #FFF;
 }
 
 .projects{
-  font-size: 4rem;
   text-align: center;
-  margin-bottom: 4.4rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 .projects::after{
   content: " Projects";
   color: #0983ee;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .project-image{
   width: 80%;
@@ -257,6 +261,7 @@ span {
   .last-projects{
     background-color: #0983ee58;
     padding: 2rem;
+    border-radius: 5px;
   }
 
   .project-boxes{
@@ -266,4 +271,57 @@ span {
     align-items: center;
     text-align: center;
     gap: 3rem;
+  }
+
+  /**********************section contact***************************/
+  .section-contact{
+    padding: 4.8rem 9.6rem;
+    text-align: center;
+    background-color: #d6d4d4;
+  }
+
+  .contact{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .contact::after{
+    content: " Me";
+    color: #0983ee;
+
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+  }
+  input{
+    width: 35%;
+    height: 35px;
+    padding: 5px;
+    border: transparent;
+    border-radius: 5px;
+  }
+
+  textarea{
+    width: 35%;
+    height: 60px;
+    border: transparent;
+    padding: 0 5px;
+  }
+
+  button{
+    width: 25%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border: transparent;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #0983ee;
+
   }
