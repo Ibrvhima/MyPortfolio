@@ -85,10 +85,10 @@ body {
 .my-photo {
   width: 75%;
 }
-.stape2{
+.stape2 {
   position: relative;
 }
-.stape2::before{
+.stape2::before {
   content: "";
   display: block;
   width: 90%;
@@ -97,7 +97,7 @@ body {
   z-index: -1;
   margin-top: 8rem;
   padding-bottom: 80%;
-  border-radius: 30% 70% 70% 30% / 30% 70% 70% 60% ;
+  border-radius: 30% 70% 70% 30% / 30% 70% 70% 60%;
 }
 
 .my-introduce {
@@ -157,8 +157,8 @@ span {
 
 .headding-secondary {
   font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .headding-secondary::after {
@@ -187,152 +187,145 @@ span {
 }
 
 /***************section services***************************/
-.service-section{
+.service-section {
   padding: 4rem 9.6rem;
 }
 
-.service{
+.service {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
-.service-boxes{
+.service-boxes {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-.boxe{
+.boxe {
   box-shadow: inset 1px 1px 1px 1px #d5d6d7;
   width: 25rem;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
   padding: 2rem;
   border-radius: 9px;
-  
 }
 
-.service-description{
+.service-description {
   font-size: 1.4rem;
   line-height: 1.5;
   margin: 2rem 0;
-
 }
-.icones{
+.icones {
   font-size: 5rem;
   color: #0983ee;
 }
 
-.learn-more{
+.learn-more {
   text-decoration: none;
   font-weight: 800;
   padding: 5px;
   background-color: #0983ee;
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
 }
 
-
 /***********************section projects****************/
-.project-section{
+.project-section {
   padding: 4.8rem 9.6rem;
 }
 
-.projects{
+.projects {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
   text-transform: capitalize;
 }
-.projects::after{
+.projects::after {
   content: " Projects";
   color: #0983ee;
   font-size: 3rem;
 }
-.project-image{
+.project-image {
   width: 80%;
   height: auto;
   border-radius: 6px;
-  }
+}
 
-  .last-projects{
-    background-color: #0983ee58;
-    padding: 2rem;
-    border-radius: 5px;
-  }
+.last-projects {
+  background-color: #0983ee58;
+  padding: 2rem;
+  border-radius: 5px;
+}
 
-  .project-boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-  }
+.project-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
 
-  /**********************section contact***************************/
-  .section-contact{
-    padding: 4.8rem 9.6rem;
-    text-align: center;
-    background-color: #d6d4d4;
-  }
+/**********************section contact***************************/
+.section-contact {
+  padding: 4.8rem 9.6rem;
+  text-align: center;
+  background-color: #d6d4d4;
+}
 
-  .contact{
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
-  .contact::after{
-    content: " Me";
-    color: #0983ee;
+.contact {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.contact::after {
+  content: " Me";
+  color: #0983ee;
+}
 
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+input {
+  width: 35%;
+  height: 35px;
+  padding: 5px;
+  border: transparent;
+  border-radius: 5px;
+}
 
-  form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
+textarea {
+  width: 35%;
+  height: 60px;
+  border: transparent;
+  padding: 0 5px;
+}
 
-  }
-  input{
-    width: 35%;
-    height: 35px;
-    padding: 5px;
-    border: transparent;
-    border-radius: 5px;
-  }
-
-  textarea{
-    width: 35%;
-    height: 60px;
-    border: transparent;
-    padding: 0 5px;
-  }
-
-  button{
-    width: 25%;
-    padding: 10px;
-    font-size: 1.2rem;
-    font-weight: 900;
-    border: transparent;
-    border-radius: 6px;
-    color: #FFF;
-    background-color: #0983ee;
-
-  }
+button {
+  width: 25%;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border: transparent;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #0983ee;
+}
 /**********************Section footer****************/
-footer{
+footer {
   padding: 2rem 9.8rem;
   background-color: #bdbcbc;
   text-align: center;
 }
 
-
-.footer p{
+.footer p {
   font-size: 1.6rem;
 }
