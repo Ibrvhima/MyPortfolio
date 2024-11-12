@@ -35,7 +35,7 @@ body {
 
 .logo-type::before {
   content: "IBRA";
-  color: #0983ee;
+  color: skyblue;
 }
 
 .navigation-list {
@@ -55,7 +55,7 @@ body {
 
 .list-link a:hover,
 .list-link a:active {
-  border-bottom: solid 3px #0983ee;
+  border-bottom: solid 3px skyblue;
 }
 
 .btn-link a:link,
@@ -64,7 +64,7 @@ body {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
-  background-color: #0983ee;
+  background-color: skyblue;
   border-radius: 5px;
   padding: 0.8rem 1.4rem;
 }
@@ -109,7 +109,7 @@ body {
 .headding-primary {
   font-size: 5.4rem;
   font-weight: 800;
-  color: #0983ee;
+  color: skyblue;
   text-transform: capitalize;
 }
 
@@ -128,14 +128,14 @@ body {
 
 .medias {
   font-size: 2.8rem;
-  color: #0983ee;
+  color: skyblue;
   margin-bottom: 3rem;
   margin-right: 1rem;
 }
 .btn {
   text-decoration: none;
   font-size: 1.6rem;
-  background-color: #0983ee;
+  background-color: skyblue;
   align-items: center;
   color: #fff;
   padding: 1.2rem;
@@ -166,7 +166,7 @@ span {
 
 .headding-secondary::after {
   content: " Me";
-  color: #0983ee;
+  color: skyblue;
 }
 
 .profil {
@@ -176,7 +176,7 @@ span {
 .profil::before {
   content: "|";
   font-size: 3rem;
-  color: #0983ee;
+  color: skyblue;
 }
 
 .description {
@@ -222,7 +222,7 @@ span {
   transform: translate(-2%, -3%);
 
   .icones {
-    color: #fff;
+    color: #ffff;
   }
 }
 
@@ -233,16 +233,16 @@ span {
 }
 .icones {
   font-size: 5rem;
-  color: #0983ee;
+  color: skyblue;
 }
 
 .learn-more {
   text-decoration: none;
   font-weight: 800;
   padding: 5px;
-  background-color: #0983ee;
+  background-color: skyblue;
   border-radius: 5px;
-  color: #fff;
+  color: #ffff;
 }
 
 /***********************section projects****************/
@@ -259,7 +259,7 @@ span {
 }
 .projects::after {
   content: " Projects";
-  color: #0983ee;
+  color: skyblue;
   font-size: 3rem;
 }
 .project-image {
@@ -272,7 +272,7 @@ span {
 }
 
 .last-projects {
-  background-color: #0983ee58;
+  background-color: skyblue;
   padding: 2rem;
   border-radius: 5px;
 }
@@ -300,7 +300,7 @@ span {
 }
 .contact::after {
   content: " Me";
-  color: #0983ee;
+  color: skyblue;
 }
 
 form {
@@ -334,8 +334,8 @@ button {
   font-weight: 900;
   border: transparent;
   border-radius: 6px;
-  color: #fff;
-  background-color: #0983ee;
+  color: #ffff;
+  background-color: skyblue;
   cursor: pointer;
 }
 
