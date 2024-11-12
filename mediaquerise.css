@@ -1,0 +1,80 @@
+@media (max-width: 1244px) {
+  .headding-primary {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1076px) {
+  .my-introduce {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1021px) {
+  .logo-type {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1.6rem 4rem;
+  }
+  .list-link a:link,
+  .list-link a:visited {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .btn-link a:link,
+  .btn-link a:visited {
+    font-size: 1.2rem;
+  }
+  .headding-primary {
+    font-size: 3rem;
+  }
+  .my-introduce {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+  }
+
+  .secton-hero {
+    gap: 10rem;
+  }
+  .hero-section {
+    padding: 4rem 9.6rem;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 811px) {
+  .stape2::before {
+    max-width: 75%;
+    margin-top: 6rem;
+    padding-bottom: 65%;
+  }
+
+  .hero-section {
+    padding: 2rem 5rem;
+    margin-top: 6rem;
+  }
+
+  .my-photo {
+    width: 65%;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .medias {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+}
