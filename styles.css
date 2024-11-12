@@ -147,7 +147,7 @@ span {
   margin-top: 20px;
 }
 
-/**********************SECTION ABOUT********************************/
+/******************SECTION ABOUT*****************/
 .about-section {
   padding: 4rem 9.6rem;
 }
@@ -205,6 +205,7 @@ span {
   display: flex;
   justify-content: center;
   gap: 3rem;
+
 }
 
 .boxe {
@@ -214,6 +215,15 @@ span {
   text-align: center;
   padding: 2rem;
   border-radius: 9px;
+}
+.boxe:hover {
+  background-color: #0983ee65;
+  transition: background-color 0.3s ease;
+  transform: translate(-2%, -3%);
+
+  .icones {
+    color: #fff;
+  }
 }
 
 .service-description {
@@ -256,6 +266,9 @@ span {
   width: 80%;
   height: auto;
   border-radius: 6px;
+}
+.project-image:hover {
+  transform: translate(-2%, -2%);
 }
 
 .last-projects {
@@ -301,14 +314,16 @@ input {
   width: 35%;
   height: 35px;
   padding: 5px;
-  border: transparent;
+  border: none;
+  outline: none;
   border-radius: 5px;
 }
 
 textarea {
   width: 35%;
   height: 60px;
-  border: transparent;
+  border: none;
+  outline: none;
   padding: 0 5px;
 }
 
